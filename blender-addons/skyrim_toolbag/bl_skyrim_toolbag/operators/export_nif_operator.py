@@ -31,9 +31,9 @@ class LBExportNIFOperator(ExportNIF, Operator):
         original_locations = {}
 
         if lbdt.reset_location:
-            print("OK, we will be resetting location")
+            print("Location of Meshes will be reset")
         else:
-            print("Naaah")
+            print("Location of meshes will be left as they are")
 
         # Upscale all Objects
         print("LB: Getting Original Scales")
@@ -62,6 +62,8 @@ class LBExportNIFOperator(ExportNIF, Operator):
             if lbdt.reset_location:
                 object.location = original_locations[object]
         print("LB: Scales Restored")
+
+        self.report({'INFO'}, "NIF Export Complete")
 
         print("DONE")
         return r_val

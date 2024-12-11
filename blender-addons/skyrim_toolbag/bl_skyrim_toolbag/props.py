@@ -12,7 +12,7 @@ from bpy.props import StringProperty
 # ===================================================================================================
 # Class: LBDT Add-on Properties
 # ===================================================================================================
-class LBDT_ADDON_Props(PropertyGroup):
+class SKT_ADDON_Props(PropertyGroup):
     reset_location: BoolProperty(
         name="",
         description="Ensure the Mesh's location is reset to world center for export",

@@ -32,6 +32,8 @@ class Fusion360SanitiseOperator(Operator):
             print("DELETING %s" % empty)
             bpy.data.objects.remove(empty, do_unlink=True)
 
+        self.report({'INFO'}, "Fusion 360 Mesh Sanitised")
+
         return {"FINISHED"}
 
 

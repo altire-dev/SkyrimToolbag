@@ -21,8 +21,8 @@ class VIEW3D_PT_LBDT_Panel(bpy.types.Panel):
     bl_region_type = "UI"  # Sidebar Reion
 
     # Add Labels
-    bl_category = "Lordbound"  # Label in the sidebar
-    bl_label = "Lordbound Dev Tools"  # Label of the Sidebar Menu (once expanded)
+    bl_category = "Skyrim Toolbag"  # Label in the sidebar
+    bl_label = "Skyrim Toolbag"  # Label of the Sidebar Menu (once expanded)
 
     def draw(self, context):
         '''
