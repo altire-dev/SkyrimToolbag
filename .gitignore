@@ -1,0 +1,7 @@
+# IDE Files and Folders
+.idea/
+
+# Build Files
+*.zip
+__pycache__/
+*.pyc
