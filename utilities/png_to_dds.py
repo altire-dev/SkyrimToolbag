@@ -1,5 +1,7 @@
 '''
 Converts All PNG files in the target directory to DDS
+
+:author: Altire
 '''
 
 # ===================================================================================================
